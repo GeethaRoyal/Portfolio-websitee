@@ -13,7 +13,14 @@
     <style>
       .orange {
         background-color: #ff9900;
+      }
 
+      .yellow {
+        padding: 40px;
+      }
+
+      .container {
+        margin: 60px;
       }
 
       .blue {
@@ -39,17 +46,19 @@
 
       .violet {
         background-color: #5a57bb;
-        padding-left: 5px;
       }
 
       .col-height {
         height: 50px;
       }
+
+      * {
+        border: 2px solid black;
     </style>
   </head>
 
   <body>
-    <div class="container">
+    <!--<div class="container">
       <div class="row ">
         <div class="col-9 orange col-height"></div>
         <div class="col-3 blue col-height"></div>
@@ -63,30 +72,21 @@
           <p>3</p>
         </div>
         <div class="col-9 orange col-height"></div>
-
         <div class="col-3 blue col-height"></div>
-
         </<div>
       </div>
-      <br>
-      <!--<div class="container">
-          <div class="row ">
-            <div class="col-3 blue col-height">
-              <p>3</p>
-            </div>
-            <div class="col-9 "></div>
-            <div class="col-9">
-              <div class="row col-height">
-                <div class="col-12 orange"></div>
-                <div class="col-1 orange"></div>
-                <div class="col-5 green"></div>
-                <div class="col-5 violet"></div>
-                <div class="col-1 orange"></div>
-                <div class="col-12 orange"></div>
-              </div>
-            </div>
-            </<div>
-          </div>-->
+      <br>-->
+    <div class="container">
+      <div class="row">
+        <div class="col-9 orange">
+          <div class="row yellow">
+            <div class="col-6 green col-height"></div>
+            <div class="col-6 violet col-height"></div>
+          </div>
+        </div>
+        <div class="col-3 blue">3</div>
+        </<div>
+      </div>
   </body>
 
 </html>
