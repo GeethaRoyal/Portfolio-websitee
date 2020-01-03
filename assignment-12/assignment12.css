@@ -1,1 +1,112 @@
+            .im {
+                height: 30px;
+                width: 40px;
+            }
 
+            .start {
+                justify-content: center;
+                display: flex;
+                align-items: center;
+            }
+
+            .imga {
+                height: 50px;
+                width: 60px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .imm {
+                width: 150px;
+                padding-left: 50;
+            }
+
+            .immm {
+                width: 150px;
+            }
+
+            .container {
+                margin-top: 30px;
+            }
+
+            .link:link {
+                color: black;
+                text-decoration: none;
+            }
+
+            .linkk:visited {
+                color: green;
+                text-decoration: none;
+            }
+
+            .linkk:hover {
+                color: green;
+                text-decoration: none;
+            }
+
+            .linkk:active {
+                color: black;
+                text-decoration: none;
+            }
+
+            .linkk {
+                color: black;
+            }
+
+            .imag {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+
+            .ia {
+                width: 100%;
+            }
+
+            .space {
+                margin-top: 100px;
+            }
+
+            .iam {
+                padding-left: auto;
+                padding-right: auto;
+            }
+
+            .just {
+                text-align: right;
+            }
+
+            .bold {
+                font-weight: bold;
+                font-size: 30px;
+                color: lightgrey;
+            }
+
+            .bord {
+                box-shadow: 0px 2px 5px lightgrey;
+            }
+
+            .heigh {
+                height: 40px;
+                padding-top: 5px;
+                padding-bottom: 3px;
+                color: lightgrey;
+            }
+
+            .dek {
+                width: 100%;
+            }
+
+            .fill {
+                background-color: #f5f5f5;
+            }
+
+            .borde {
+                border-right: 2px solid white;
+            }
+
+            .bord {
+                border-bottom: 1px solid black;
+            }
