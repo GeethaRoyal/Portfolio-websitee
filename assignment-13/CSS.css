@@ -1,0 +1,11 @@
+@media (min-width:500px) {
+    body {
+        color: indigo;
+    }
+}
+
+@media (max-width:700px) {
+    body {
+        background-color: rgb(10, 10, 10);
+    }
+}

@@ -1,0 +1,15 @@
+  body {
+                margin: 20px;
+                border: 2px lightgrey;
+            }
+
+            .g {
+                display: none;
+            }
+
+            @media (min-width:768px) {
+                .g {
+                    display: block;
+                    background-color: lightgrey;
+                }
+            }
