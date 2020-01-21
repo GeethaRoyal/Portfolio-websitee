@@ -1,5 +1,7 @@
 body {
   background-color: #f7fbff;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .f {
@@ -37,7 +39,9 @@ p {
     padding-bottom: 30px;
     margin-bottom: 30px;
     background-color: #246caf;
-    border: 2px solid black;
+    border: 2px dotted black;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 
@@ -49,6 +53,8 @@ p {
     text-align: center;
     background-color: #7985ff;
     border: 3px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
@@ -59,5 +65,7 @@ p {
     padding-bottom: 50px;
     margin-bottom: 50px;
     background-color: white;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
