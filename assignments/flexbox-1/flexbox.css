@@ -1,1 +1,44 @@
+.flexbox {
+  display: flex;
+  margin-top: 10px;
+  height: 100%;
+}
 
+.cen {
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+}
+
+.html {
+  height: 100%;
+  background: lightblue;
+}
+
+.css {
+  height: 100%;
+  background: purple;
+}
+
+.boot {
+  height: 100%;
+  background: orange;
+}
+
+.js {
+  height: 100%;
+  background: mediumseagreen;
+}
+
+body {
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+img {
+  width: 100px;
+}
