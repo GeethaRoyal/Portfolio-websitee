@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Tab.css" type="text/css" />
+  </head>
+
+  <body>
+    <img Width="100%" src="../static/10.jpeg"></img>
+    <div class="flex">
+      <button class="tablink btn" onclick="openPage('Home', this, 'white')" id="defaultOpen">Home</button>
+      <button class="tablink btn" onclick="openPage('About', this, 'white')">About</button>
+      <button class="tablink btn ed" onclick="openPage('Education', this, 'white')">Education</button>
+      <button class="tablink btn" onclick="openPage('Skills', this, 'white')">Skills</button>
+      <button class="tablink btn " onclick="openPage('Hobbies', this, 'white')">Hobbies</button>
+      <button class="tablink btn" onclick="openPage('Contact', this, 'white')">Contact</button></div>
+    <div id="Home" class="tabcontent color">
+      <h3>Geetha'S Profile</h3>
+      <p>Hi, Out There</p>
+    </div>
+
+    <div id="About" class="tabcontent color">
+      <h3>About Me</h3>
+      <p>Some fine day you'll know about me!</p>
+    </div>
+
+    <div id="Education" class="tabcontent ccolor">
+      <h3>Education</h3>
+      <div class="timeline color">
+        <div class="container right">
+          <div class="content">
+            <h2>2017-present</h2>
+            <p>Currently pursuing Engineering in the stream of Computer Science & Engineering</p>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content">
+            <h2>2015-17</h2>
+            <p>Completed my Pre University Course with 79%</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <h2>2014-2015</h2>
+            <p>I've studied my 10th in Govt. High School,Tanakallu ,Anantapuram(dst)</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="Skills" class="tabcontent color">
+      <p>HTML</p>
+      <div class="contain">
+        <div class="skills html">90%</div>
+      </div>
+      <p>CSS</p>
+      <div class="contain">
+        <div class="skills css">80%</div>
+      </div>
+      <p>JavaScript</p>
+      <div class="contain">
+        <div class="skills js">65%</div>
+      </div>
+      <p>PHP</p>
+      <div class="contain">
+        <div class="skills php">60%</div>
+      </div>
+      <p>C</p>
+      <div class="contain">
+        <div class="skills C">95%</div>
+      </div>
+      <p>Java</p>
+      <div class="contain">
+        <div class="skills java">60%</div>
+      </div>
+    </div>
+    <div id="Hobbies" class="tabcontent color">
+      <h3>Hobbies</h3>
+      <p>Reading.</p>
+      <p>Writing.</p>
+      <p>Listening to music.</p>
+    </div>
+    <div id="Contact" class="tabcontent color">
+      <h3>Contact</h3>
+      <p>Email :geethakogara@gmail.com.</p>
+      <p>Contact :+91 7642974294</p>
+      <p> OR</p>
+      <p>Follow me on</p>
+      <p>
+
+      </p>
+    </div>
+
+    <script>
+      function openPage(pageName, elmnt, color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.backgroundColor = "";
+        }
+        document.getElementById(pageName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+      }
+
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+  </body>
+
+</html>

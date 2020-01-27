@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Flexbox</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css" href="flexbox.css" />
+    <style>
+      .flexbox {
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+      }
+
+      img {
+        height: 100px;
+      }
+
+      .co {
+        width: 48%;
+        background: #FFFFE0;
+        border: 3px solid #F0E68C;
+        border-radius: 20px;
+      }
+
+      .flex {
+        display: flex;
+        justify-content: center;
+      }
+
+      .button {
+        background-color: green;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: bold;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+      .di {
+        text-align: center;
+      }
+
+      .dii {
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+      }
+
+      .d {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .dii {
+        margin-top: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flex">
+      <div class="flexbox">
+        <div class="co">
+          <div class="di"><img src="assets/computer.jpg" alt="computer"></img>
+          </div>
+          <h5>Computer Starter Kit</h5>
+          <p>This is the best computer money can buy if you don't have much money.</p>
+          <ul>
+            <li>Computer</li>
+            <li>Monitor</li>
+            <li>Keyboard</li>
+            <li>Mouse</li>
+          </ul>
+          <div class="dii"><input type="button" class="button" value="BUY NOW"></div>
+        </div>
+        <div class="co d">
+          <div class="hei">
+            <div class="di"><img src="assets/printer.png" alt="printer"></img>
+            </div>
+            <h5>Printer</h5>
+            <p>Only capable of printing ASCII art</p>
+            <ul>
+              <li>Paper and ink not included</li>
+            </ul>
+          </div>
+          <div class="dii"><input type="button" class="button" value="BUY NOW"></div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
