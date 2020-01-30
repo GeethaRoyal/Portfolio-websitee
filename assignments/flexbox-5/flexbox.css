@@ -1,0 +1,32 @@
+body {
+  background-color: #e0e0e0;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.orange {
+  flex: 1 1 660px;
+  min-width: 350px;
+  background-color: orange;
+}
+
+.brown {
+  flex: 1 1 auto;
+  min-width: 350px;
+  background-color: saddlebrown;
+}
+
+.green {
+  flex: 1 1 400px;
+  min-width: 350px;
+  background-color: green;
+}
+
+.width {
+  height: 100px;
+}

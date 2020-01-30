@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Port.css" type="text/css" />
+
+  </head>
+
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <img src="assets/logo-gmail.png" class="round">
+      <a href="#Home">Home</a>
+      <a href="#About">About</a>
+      <a href="#Education">Education</a>
+      <a href="#Skills">Skills</a>
+      <a href="#Hobbies">Hobbies</a>
+      <a href="#Contact">Contact</a>
+    </div>
+
+    <div id="main">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <div id="Home" class="tabcontent color">
+        <h3>Geetha's Profile</h3>
+        <p>Hi, Out There</p>
+      </div>
+
+      <div id="About" class="tabcontent color">
+        <h3>About Me</h3>
+        <p>Some fine day you'll know about me!</p>
+      </div>
+
+      <div id="Education" class="tabcontent ccolor">
+        <h3>Education</h3>
+        <div class="timeline color">
+          <div class="container right">
+            <div class="content">
+              <h2>2017-present</h2>
+              <p>Currently pursuing Engineering in the stream of Computer Science & Engineering</p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h2>2015-17</h2>
+              <p>Completed my Pre University Course with 79%</p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2>2014-2015</h2>
+              <p>I've studied my 10th in Govt. High School,Tanakallu ,Anantapuram(dst)</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="Skills" class="tabcontent color">
+        <p>HTML</p>
+        <div class="contain">
+          <div class="skills html">90%</div>
+        </div>
+        <p>CSS</p>
+        <div class="contain">
+          <div class="skills css">80%</div>
+        </div>
+        <p>JavaScript</p>
+        <div class="contain">
+          <div class="skills js">65%</div>
+        </div>
+        <p>PHP</p>
+        <div class="contain">
+          <div class="skills php">60%</div>
+        </div>
+        <p>C</p>
+        <div class="contain">
+          <div class="skills C">95%</div>
+        </div>
+        <p>Java</p>
+        <div class="contain">
+          <div class="skills java">60%</div>
+        </div>
+      </div>
+      <div id="Hobbies" class="tabcontent color">
+        <h3>Hobbies</h3>
+        <p>Reading.</p>
+        <p>Writing.</p>
+        <p>Listening to music.</p>
+      </div>
+      <div id="Contact" class="tabcontent color">
+        <h3>Contact</h3>
+        <p>Email :geethakogara@gmail.com.</p>
+        <p>Contact :+91 7642974294</p>
+        <p> OR</p>
+        <p>Follow me on</p>
+        <p>
+
+        </p>
+      </div>
+
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "200px";
+        document.getElementById("main").style.marginLeft = "200px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+
+  </body>
+
+</html>
